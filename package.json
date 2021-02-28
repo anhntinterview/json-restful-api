@@ -1,0 +1,24 @@
+{
+  "name": "mock-data-json",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js",
+    "prod": "NODE_ENV=production node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.8",
+    "@babel/node": "^7.13.0",
+    "@babel/preset-env": "^7.13.8",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^7.0.3",
+    "forever": "^3.0.4"
+  }
+}

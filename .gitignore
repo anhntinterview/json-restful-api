@@ -1,0 +1,10 @@
+.idea/
+.vscode/
+node_modules/
+tmp/
+temp/
+front-end/node_modules
+package.bak.json
+# uploads/
+logs/
+.DS_Store
